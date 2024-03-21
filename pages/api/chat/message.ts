@@ -13,14 +13,14 @@ export default async function handler(req: RequestParam, res: NextApiResponse) {
   const messages = JSON.parse(req.body);
   let response;
   try {
-    response = await fetch('https://api.openai.com/v1/chat/completions', {
+    response = await fetch('http://127.0.0.1:5000/process', {
       method: 'POST',
+      mode: "cors",
+
       headers: {
-        Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'gpt-3.5-turbo',
         messages,
       }),
     });
@@ -31,6 +31,8 @@ export default async function handler(req: RequestParam, res: NextApiResponse) {
 
   try {
     const data = await response.json();
+    console.log(data);
+    console.log(data.message);
     return res.status(200).json(data);
   } catch (error) {
     console.error('Error:', error);
