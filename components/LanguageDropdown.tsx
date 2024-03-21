@@ -38,8 +38,8 @@ const languageOptions: MenuProps['items'] = [
     type: 'divider',
   },
   {
-    label: '中文',
-    icon: '🇨🇳',
+    label: 'Deutsch',
+    icon: '🇩🇪',
     key: 'zh-CN',
   },
 ];

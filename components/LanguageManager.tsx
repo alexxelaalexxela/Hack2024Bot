@@ -19,11 +19,11 @@ export const languageOptions: Record<string, string> = {
 };
 
 const LanguageManager: React.FC<LanguageManagerProps> = ({ children }) => {
-  const [selectedLanguage, setSelectedLanguage] = useState('en-US'); // Default language
+  const [selectedLanguage, setSelectedLanguage] = useState('zh-CN'); // Default language
 
   useEffect(() => {
     const locale = router.locale;
-    setSelectedLanguage(locale || 'en-US');
+    setSelectedLanguage(locale || 'zh-CN');
   }, []);
 
   const changeLanguage = (language: string) => {

@@ -9,26 +9,26 @@ export default function ConversionIdea({ onSelect }: ConversionIdeaProps) {
   const { selectedLanguage } = useLanguage();
   const converSationIdeas: { key: string; title: string; prompt: string }[] = [
     {
-      key: 'conversation.fitnessCoach',
-      title: t('conversation.fitnessCoach.title'),
-      prompt: t('conversation.fitnessCoach.prompt'),
+      key: 'conversation.Passport',
+      title: t('conversation.Passport.title'),
+      prompt: t('conversation.Passport.prompt'),
     },
     {
-      key: 'conversation.jobInterview',
-      title: t('conversation.jobInterview.title'),
-      prompt: t('conversation.jobInterview.prompt'),
+      key: 'conversation.Address',
+      title: t('conversation.Address.title'),
+      prompt: t('conversation.Address.prompt'),
     },
     {
-      key: 'conversation.languagePractice',
-      title: t('conversation.languagePractice.title'),
-      prompt: t('conversation.languagePractice.prompt', {
+      key: 'conversation.Permit',
+      title: t('conversation.Permit.title'),
+      prompt: t('conversation.Permit.prompt', {
         language: languageOptions[selectedLanguage],
       }),
     },
     {
-      key: 'conversation.knowledgeQuiz',
-      title: t('conversation.knowledgeQuiz.title'),
-      prompt: t('conversation.knowledgeQuiz.prompt'),
+      key: 'conversation.Taxes',
+      title: t('conversation.Taxes.title'),
+      prompt: t('conversation.Taxes.prompt'),
     },
   ];
 
