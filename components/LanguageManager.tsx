@@ -15,15 +15,15 @@ type LanguageManagerProps = {
 export const languageOptions: Record<string, string> = {
   'en-US': 'English',
   'fr-FR': 'Français',
-  'zh-CN': '中文',
+  'de-DE': 'Deutsch',
 };
 
 const LanguageManager: React.FC<LanguageManagerProps> = ({ children }) => {
-  const [selectedLanguage, setSelectedLanguage] = useState('zh-CN'); // Default language
+  const [selectedLanguage, setSelectedLanguage] = useState('en-US'); // Default language
 
   useEffect(() => {
     const locale = router.locale;
-    setSelectedLanguage(locale || 'zh-CN');
+    setSelectedLanguage(locale || 'en-US');
   }, []);
 
   const changeLanguage = (language: string) => {

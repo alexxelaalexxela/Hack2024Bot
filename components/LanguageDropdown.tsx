@@ -40,7 +40,7 @@ const languageOptions: MenuProps['items'] = [
   {
     label: 'Deutsch',
     icon: '🇩🇪',
-    key: 'zh-CN',
+    key: 'de-DE',
   },
 ];
 
