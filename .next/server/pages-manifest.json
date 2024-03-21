@@ -2,5 +2,13 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/api/chat/message": "pages/api/chat/message.js",
+  "/api/hello": "pages/api/hello.js",
+  "/": "pages/index.js",
+  "/de-DE/404": "pages/de-DE/404.html",
+  "/en-US/404": "pages/en-US/404.html",
+  "/fr-FR/404": "pages/fr-FR/404.html",
+  "/de-DE/500": "pages/de-DE/500.html",
+  "/en-US/500": "pages/en-US/500.html",
+  "/fr-FR/500": "pages/fr-FR/500.html"
 }
