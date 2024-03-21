@@ -87,6 +87,7 @@ export default function ConversionIdeasModal() {
                 }}
               >
                 {item.title}
+                <div style={{ color: '#FF0000' }}>{item.title}</div> {/* Change color to red here */}
               </Button>
             </List.Item>
           )}

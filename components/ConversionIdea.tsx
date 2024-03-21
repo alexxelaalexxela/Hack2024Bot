@@ -36,9 +36,10 @@ export default function ConversionIdea({ onSelect }: ConversionIdeaProps) {
     <div className="xxs:mt-10 md:mt-0 w-full overflow-x-auto justify-center xxs:hidden md:flex">
       {converSationIdeas.map(idea => (
         <button
-          className="bg-[#fdcfe1] border-2 border-[#e64683cf] mr-3 px-3 py-1 last:mr-0 text-black rounded"
+          className="bg-[#009934] border-2 border-[#000000] mr-3 px-3 py-1 last:mr-0 text-black rounded"
           key={idea.key}
           onClick={() => onSelect(idea.prompt)}
+          style={{ color: '#ffffff' }} // Set title text color to red
         >
           {idea.title}
         </button>

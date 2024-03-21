@@ -166,7 +166,7 @@ export function CallHistory() {
                           <div className="flex">
                             <div
                               className={`w-9 h-9 flex justify-center items-center ${
-                                message.sender !== 'user' ? 'bg-[#FC4189]' : ' bg-[#45BADD]'
+                                message.sender !== 'user' ? 'bg-[#009934]' : ' bg-[#ffffff]'
                               }`}
                             >
                               {message.sender === 'user' ? (
