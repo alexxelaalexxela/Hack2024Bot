@@ -1,0 +1,2 @@
+openai_api_key="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"
+MONGO_URI=MONGODB_ATLAS_URI="mongodb+srv://fuckyou:indianTechSupport@cluster0.qjheieo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
