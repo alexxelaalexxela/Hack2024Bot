@@ -25,12 +25,16 @@ export default function TalkButton({
   const { t } = useTranslation();
   if (!isCalling) {
     return (
-      <button
-        className="cursor-pointer outline-none  md:text-base text-white bg-[#009934] rounded-full border-none border-r-5 shadow md:mb-10"
-        onClick={userCall}
-      >
-        <div className="w-[150px] h-[50px] flex justify-center items-center">{t('call.call')}</div>
-      </button>
+      <div >
+        <button
+          className="cursor-pointer outline-none  md:text-base text-white bg-[#009934] rounded-full border-none border-r-5 shadow md:mb-10"
+          onClick={userCall}
+        >
+          <div className="w-[150px] h-[50px] flex justify-center items-center">{t('call.call')}</div>
+        </button>
+        <div className="w-[150px] h-[50px] flex justify-center items-center"></div>
+      </div>
+
     );
   }
 

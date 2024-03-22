@@ -1171,13 +1171,20 @@ _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_asyn
 function TalkButton({ userCall, userSpeak, userStopSpeaking, listening, isCalling, endCall, isChatbotSpeaking }) {
     const { t } = (0,next_i18next__WEBPACK_IMPORTED_MODULE_4__.useTranslation)();
     if (!isCalling) {
-        return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-            className: "cursor-pointer outline-none  md:text-base text-white bg-[#009934] rounded-full border-none border-r-5 shadow md:mb-10",
-            onClick: userCall,
-            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "w-[150px] h-[50px] flex justify-center items-center",
-                children: t("call.call")
-            })
+        return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            children: [
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                    className: "cursor-pointer outline-none  md:text-base text-white bg-[#009934] rounded-full border-none border-r-5 shadow md:mb-10",
+                    onClick: userCall,
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "w-[150px] h-[50px] flex justify-center items-center",
+                        children: t("call.call")
+                    })
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                    className: "w-[150px] h-[50px] flex justify-center items-center"
+                })
+            ]
         });
     }
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
