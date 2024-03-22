@@ -1,5 +1,5 @@
 {
-  "bob.introduction": "Hey there! I'm Bob, Ask me any question ! ",
+  "bob.introduction": "Hey there! I'm Bob, ask me any question!",
   "bob.systemMessage": "Hello! I'm Bob, your friendly chat partner. I'm skilled at answering your questions related to the Saint-Gallen institution (Passport, ID, Address, Taxes). Please keep your responses concise, around 2 to 3 sentences if possible. I appreciate not using emoticons. Ready for a fantastic conversation?",
   "bob.browserNotSupportSpeechRecognitionMessage": "Your browser does not support speech recognition software! Try Chrome desktop, maybe?",
   "bob.firstMessage": "Hey there, how can I help you ? ",
