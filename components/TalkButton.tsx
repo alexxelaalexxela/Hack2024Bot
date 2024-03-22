@@ -29,7 +29,7 @@ export default function TalkButton({
         className="cursor-pointer outline-none  md:text-base text-white bg-[#009934] rounded-full border-none border-r-5 shadow md:mb-10"
         onClick={userCall}
       >
-        <div className="w-[120px] h-[50px] flex justify-center items-center">{t('call.call')}</div>
+        <div className="w-[150px] h-[50px] flex justify-center items-center">{t('call.call')}</div>
       </button>
     );
   }
@@ -40,7 +40,7 @@ export default function TalkButton({
         <button className="py-4" onClick={userStopSpeaking}>
           <span className="relative flex h-[50px] w-[50px]">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#009934] "></span>
-            <span className="relative inline-flex rounded-full h-[50px] w-[50px] bg-[#fc4189] opacity-15 justify-center items-center">
+            <span className="relative inline-flex rounded-full h-[50px] w-[50px] bg-[#009934] opacity-15 justify-center items-center">
               <FontAwesomeIcon
                 icon={faSquare}
                 style={{ color: 'white', fontSize: '20px' }}
@@ -56,9 +56,8 @@ export default function TalkButton({
           <span className="relative flex h-[50px] w-[50px]">
             <span className="absolute inline-flex h-full w-full rounded-full bg-gray-300"></span>
             <span
-              className={`relative inline-flex rounded-full h-[50px] w-[50px] opacity-15 justify-center items-center ${
-                isChatbotSpeaking ? 'bg-gray-400' : 'bg-[#009934]'
-              }`}
+              className={`relative inline-flex rounded-full h-[50px] w-[50px] opacity-15 justify-center items-center ${isChatbotSpeaking ? 'bg-gray-400' : 'bg-[#009934]'
+                }`}
             >
               <FontAwesomeIcon
                 icon={isChatbotSpeaking ? faMicrophoneSlash : faMicrophone}

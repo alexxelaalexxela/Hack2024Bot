@@ -111,7 +111,7 @@ function CallBob() {
         className: "flex lg:flex-row lg:items-center lg:justify-center xxs:h-full flex-col items-center justify-end overflow-auto",
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "lg:bg-[url(../public/assets/Bob.gif)] bg-cover lg:h-[500px] lg:w-[500px] w-full bg-no-repeat bg-contain bg-center xxs:bg-[url(../public/assets/Bob.gif)] xxs:bg-cover xxs:h-[1000px] xxs:pt-30"
+                className: "lg:bg-[url(../public/assets/Bob.gif)] bg-cover lg:h-[500px] lg:w-[500px] w-full bg-no-repeat bg-contain bg-center xxs:bg-[url(../public/assets/Bob.gif)] xxs:bg-cover xxs:h-[500px] xxs:pt-20"
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                 className: "flex justify-center flex-col items-center lg:w-[calc(100%-600px)] w-full xxs:h-full z-10 xxs:pt-8",
@@ -1175,7 +1175,7 @@ function TalkButton({ userCall, userSpeak, userStopSpeaking, listening, isCallin
             className: "cursor-pointer outline-none  md:text-base text-white bg-[#009934] rounded-full border-none border-r-5 shadow md:mb-10",
             onClick: userCall,
             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "w-[120px] h-[50px] flex justify-center items-center",
+                className: "w-[150px] h-[50px] flex justify-center items-center",
                 children: t("call.call")
             })
         });
@@ -1193,7 +1193,7 @@ function TalkButton({ userCall, userSpeak, userStopSpeaking, listening, isCallin
                             className: "animate-ping absolute inline-flex h-full w-full rounded-full bg-[#009934] "
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                            className: "relative inline-flex rounded-full h-[50px] w-[50px] bg-[#fc4189] opacity-15 justify-center items-center",
+                            className: "relative inline-flex rounded-full h-[50px] w-[50px] bg-[#009934] opacity-15 justify-center items-center",
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
                                 icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faSquare,
                                 style: {
