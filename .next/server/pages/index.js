@@ -862,9 +862,9 @@ function ConversionIdea({ onSelect }) {
 
 function GithubLink() {
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-        className: "mx-1",
+        className: "mx-1 mt-10",
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-            className: "bg-[url(../public/assets/flag.png)] lg:h-[100px] lg:w-[100px] xxs:h-0 w-full bg-no-repeat bg-contain bg-center"
+            className: "bg-[url(../public/assets/flag.png)] h-[50px] w-[50px] sm:h-[100px] sm:w-[100px] bg-no-repeat bg-contain bg-center"
         })
     });
 }
