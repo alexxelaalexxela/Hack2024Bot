@@ -114,7 +114,7 @@ function CallBob() {
                 className: "lg:bg-[url(../public/assets/Bob.gif)] bg-cover lg:h-[500px] lg:w-[500px] w-full bg-no-repeat bg-contain bg-center xxs:bg-[url(../public/assets/Bob.gif)] xxs:bg-cover xxs:h-[500px] xxs:pt-20"
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex justify-center flex-col items-center lg:w-[calc(100%-600px)] w-full xxs:h-full z-10 xxs:pt-8",
+                className: "flex justify-center flex-col items-center lg:w-[calc(100%-500px)] w-full xxs:h-full z-10 xxs:pt-8",
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_MessageBox__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
                         message: messages[messages.length - 1].message
